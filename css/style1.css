@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/naruto-lofi.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+} 
+
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+.loc{
+    border: 2px solid rgb(225, 65, 65);
+    margin: 2px;
+    color: rgb(255, 0, 43);
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+    opacity: 0.6;    
+}
+
+#location,#forecast{
+    font-weight: 800;
+    font-size: larger;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    margin-top: 25px;
+    color: white;
+    background-color: rgb(255, 0, 43);
+    border-radius: 50px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    opacity: 0.8; 
+}
+
+#sign {
+    padding-right: 5px;
+}
+
+#icon{
+    margin-bottom: -15px;
+    background-color: rgb(0, 195, 255);
+    border-radius: 25%;
+}
+
+div{
+    display: inline;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 255, 76);
+    color: black;
+    transition:  1s;
+}
+
+#icon:hover{
+    background-color: blue;
+    transition:  1s;
+
+}
+@media only screen and (max-width: 768px) {
+
+    span.line1{
+        display: flex;
+        flex-direction: column;
+}
+
+h1 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+#l1 {
+    display: inline;
+}
+
+#icon{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+}
